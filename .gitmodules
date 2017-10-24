@@ -1,0 +1,20 @@
+[submodule "Client"]
+	path = Client
+	url = https://github.com/HuskyEngine/Client
+	branch = master
+[submodule "Editor"]
+	path = Editor
+	url = https://github.com/HuskyEngine/Editor
+	branch = master
+[submodule "Web"]
+	path = Web
+	url = https://github.com/HuskyEngine/Web
+	branch = master
+[submodule "Server"]
+	path = Server
+	url = https://github.com/HuskyEngine/Server
+	branch = master
+[submodule "Common"]
+	path = Common
+	url = https://github.com/HuskyEngine/Common
+	branch = master

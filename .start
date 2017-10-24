@@ -1,0 +1,9 @@
+#!/bin/bash
+
+tmux new-session -s 'Husky' -n 'Husky Engine' -d
+tmux send-keys -t 0 'cd Web; node app' C-j
+tmux split-window -h
+tmux send-keys -t 1 'cd Server; node server' C-j
+
+# comment out the line below if you don't want tmux to attach
+tmux a -t 'Husky'
